@@ -15,7 +15,7 @@ else
 fi	
 
 if [ ! -d "/Applications/Docker.app" ]; then
-	brew install --cask docker-desktop
+	brew install --cask docker
 else
 	echo "Docker Desktop already installed"
 fi	

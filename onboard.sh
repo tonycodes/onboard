@@ -76,10 +76,16 @@ cd ~/code && git clone git@github.com:lucidux/seg-dev-env.git && cd ~/code/seg-d
 if grep -Fx "127.0.0.1 api.seg.devel portal.seg.devel signup.seg.devel" /etc/hosts
 then
 	echo "Host entries are good"
-	exit 0
 else
 	echo "Updating hosts file"
 	sudo bash -c 'echo -e "--ADDED BY ONBOARDING SCRIPT---\n127.0.0.1 api.seg.devel portal.seg.devel signup.seg.devel\n--END---" >> /etc/hosts'
 fi
+
+echo "******* DEV ENVIRONMENT READY! **********"
+echo "https://api.seg.devel"
+echo "https://portal.seg.devel"
+echo "https://signup.seg.devel"
+echo "now available.."
+echo "*****************************************"
 
 exit 0

@@ -1,6 +1,7 @@
 # Prep
 
-Add your SSH key to your Github account
+- Add your SSH key to your Github account
+- Create a code directory e.g ~/code or whatever you prefer (just update the below to reflect it)
 
 # Run
 

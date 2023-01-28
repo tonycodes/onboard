@@ -18,7 +18,9 @@ if [ ! -d "/Applications/Docker.app" ]; then
 	brew install --cask docker
 else
 	echo "Docker Desktop already installed"
-fi	
+fi
+
+sudo open -a docker
 
 if [ ! -d "/Applications/TablePlus.app" ]; then
 	brew install --cask tableplus 

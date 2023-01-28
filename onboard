@@ -2,7 +2,7 @@
 
 # main.command
 
-#  Created by _yourname_
+#  Created by Tony James
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/main/install.sh)"

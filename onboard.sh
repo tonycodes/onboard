@@ -21,7 +21,7 @@ else
 fi
 
 sudo open -a docker
-osascript -e 'tell application "Docker" to set visible of front window to false'
+osascript -e 'tell application "docker" to set visible of front window to false'
 
 if [ ! -d "/Applications/TablePlus.app" ]; then
 	brew install --cask tableplus 
